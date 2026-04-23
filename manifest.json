@@ -1,0 +1,20 @@
+{
+    "name": "LWSD Guest Portal Log In",
+    "description": "Automatically logs into the LWSD Guest portal",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "js": [
+                "main.js"
+            ],
+            "matches": [
+                "https://na.network-auth.com/splash/Ce3pkaI.1.620/*"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "scripting"
+    ]
+}
